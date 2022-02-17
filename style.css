@@ -166,6 +166,11 @@ hr {
     background-color: lightslategray;
 }
 
+a:hover {
+    color:cyan;
+    transform: scale(1.25);
+    text-decoration: none;
+}
 /* .sidebar {
     height: 100%;
     width: 40%;
@@ -277,6 +282,11 @@ hr {
 
 i {
     font-size: 3rem;
+
+}
+
+i:hover {
+    cursor: pointer;
 }
 
 #footer .copyright {
